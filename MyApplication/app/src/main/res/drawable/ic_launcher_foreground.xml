@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Foreground layer — Keyhole Portal.
+  108×108dp canvas. Safe zone: center 66dp (icon stays inside any mask).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- White squircle (the "portal"). Sized to fit the 66dp safe zone. -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,38 C63,38 70,45 70,54 C70,63 63,70 54,70 C45,70 38,63 38,54 C38,45 45,38 54,38 Z" />
+
+    <!-- Squircle re-drawn at icon scale (the visible "lens") -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,30 C66,30 78,42 78,54 C78,66 66,78 54,78 C42,78 30,66 30,54 C30,42 42,30 54,30 Z" />
+
+    <!-- Keyhole cut-out: circle + tapered shaft, painted in brand color -->
+    <path
+        android:fillColor="@color/ic_launcher_background"
+        android:pathData="M54,46 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 Z" />
+    <path
+        android:fillColor="@color/ic_launcher_background"
+        android:pathData="M50,50 L58,50 L56.5,66 L51.5,66 Z" />
+</vector>

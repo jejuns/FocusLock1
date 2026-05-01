@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Monochrome layer — Android 13+ themed icons.
+  Same shape as foreground but rendered as a single-color silhouette.
+  The system tints it with the user's wallpaper-derived theme color.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Solid squircle silhouette -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,30 C66,30 78,42 78,54 C78,66 66,78 54,78 C42,78 30,66 30,54 C30,42 42,30 54,30 Z" />
+
+    <!-- Knock out keyhole using even-odd fill (transparent cut) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00000000"
+        android:pathData="M54,46 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+
+    <!-- Use a second path drawn in transparent? Vector drawables don't support
+         even-odd cleanly across all renderers, so we re-paint the keyhole in
+         the system's "background" color reference. The themed-icon system
+         strips colors anyway and tints the white path; the cut paths below
+         are drawn after with alpha 0 just to keep the visual hint in IDE. -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M50,50 L58,50 L56.5,66 L51.5,66 Z" />
+</vector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FocusLock</string>
+    <string name="accessibility_service_label">FocusLock 앱 차단</string>
+    <string name="accessibility_service_description">지정된 앱을 차단하고 NFC 태그로 잠금을 해제합니다. FocusLock이 정상 작동하려면 이 권한이 필요합니다.</string>
+    <string name="device_admin_description">FocusLock이 공장 초기화 및 안전 모드 부팅을 차단하려면 기기 관리자 권한이 필요합니다.</string>
+</resources>

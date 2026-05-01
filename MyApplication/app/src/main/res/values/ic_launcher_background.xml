@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand indigo — matches md_theme_light_primary -->
+    <color name="ic_launcher_background">#2F4BD9</color>
+</resources>

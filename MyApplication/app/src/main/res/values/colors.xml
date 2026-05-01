@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ─── Brand seed ─── -->
+    <color name="seed">#2F4BD9</color>
+
+    <!-- ─── Light scheme (Material 3) — 원본 파란색 유지 ─── -->
+    <color name="md_theme_light_primary">#2F4BD9</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#DCE1FF</color>
+    <color name="md_theme_light_onPrimaryContainer">#000F5E</color>
+
+    <color name="md_theme_light_secondary">#3F6960</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#C2ECDF</color>
+    <color name="md_theme_light_onSecondaryContainer">#00201B</color>
+
+    <color name="md_theme_light_tertiary">#7A5900</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#FFDF95</color>
+    <color name="md_theme_light_onTertiaryContainer">#261A00</color>
+
+    <color name="md_theme_light_error">#BA1A1A</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">#FFDAD6</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+
+    <color name="md_theme_light_background">#FAF8FF</color>
+    <color name="md_theme_light_onBackground">#1B1B21</color>
+    <color name="md_theme_light_surface">#FAF8FF</color>
+    <color name="md_theme_light_onSurface">#1B1B21</color>
+    <color name="md_theme_light_surfaceVariant">#E3E1EC</color>
+    <color name="md_theme_light_onSurfaceVariant">#46464F</color>
+    <color name="md_theme_light_outline">#777680</color>
+    <color name="md_theme_light_outlineVariant">#C7C5D0</color>
+
+    <color name="md_theme_light_surfaceContainerLowest">#FFFFFF</color>
+    <color name="md_theme_light_surfaceContainerLow">#F4F2FA</color>
+    <color name="md_theme_light_surfaceContainer">#EEEDF5</color>
+    <color name="md_theme_light_surfaceContainerHigh">#E8E7EF</color>
+    <color name="md_theme_light_surfaceContainerHighest">#E2E1E9</color>
+
+    <!-- ─── Dark scheme — 앰버/골드 (야간모드 최적화) ─── -->
+    <color name="md_theme_dark_primary">#E8C97A</color>
+    <color name="md_theme_dark_onPrimary">#3D2800</color>
+    <color name="md_theme_dark_primaryContainer">#5A3C00</color>
+    <color name="md_theme_dark_onPrimaryContainer">#F5E6B8</color>
+
+    <color name="md_theme_dark_secondary">#D4A853</color>
+    <color name="md_theme_dark_onSecondary">#2C1E00</color>
+    <color name="md_theme_dark_secondaryContainer">#3D2E00</color>
+    <color name="md_theme_dark_onSecondaryContainer">#FAEAC8</color>
+
+    <color name="md_theme_dark_tertiary">#A8C880</color>
+    <color name="md_theme_dark_onTertiary">#1A2E08</color>
+    <color name="md_theme_dark_tertiaryContainer">#3A5220</color>
+    <color name="md_theme_dark_onTertiaryContainer">#D8ECC0</color>
+
+    <color name="md_theme_dark_error">#FFB4AB</color>
+    <color name="md_theme_dark_onError">#690005</color>
+    <color name="md_theme_dark_errorContainer">#93000A</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+
+    <!-- 다크 배경 — 따뜻한 어두운 톤 -->
+    <color name="md_theme_dark_background">#141209</color>
+    <color name="md_theme_dark_onBackground">#EDE0C8</color>
+    <color name="md_theme_dark_surface">#141209</color>
+    <color name="md_theme_dark_onSurface">#EDE0C8</color>
+    <color name="md_theme_dark_surfaceVariant">#262218</color>
+    <color name="md_theme_dark_onSurfaceVariant">#C8B99A</color>
+    <color name="md_theme_dark_outline">#8A7A60</color>
+    <color name="md_theme_dark_outlineVariant">#3A3020</color>
+
+    <color name="md_theme_dark_surfaceContainerLowest">#0E0C06</color>
+    <color name="md_theme_dark_surfaceContainerLow">#1A1710</color>
+    <color name="md_theme_dark_surfaceContainer">#1E1B12</color>
+    <color name="md_theme_dark_surfaceContainerHigh">#262218</color>
+    <color name="md_theme_dark_surfaceContainerHighest">#302C1E</color>
+
+    <!-- 호환용 -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
