@@ -30,25 +30,8 @@
 
 플레이스토어 미등록 앱입니다. 직접 빌드해서 설치해야 해요.
 
-### 1. 프로젝트 클론
-
-```bash
-git clone https://github.com/YOUR_USERNAME/FocusLock.git
-```
-
-### 2. Android Studio에서 열기
-
-```
-File → Open → FocusLock 폴더 선택
-```
-
-### 3. 빌드 및 설치
-
-```
-Build → Build Bundle(s) / APK(s) → Build APK(s)
-```
-
-생성된 `app-debug.apk`를 폰에 설치하세요.
+못믿겠으면 코드 다 검토 하고, 직접 apk 생성해서 쓰던가.
+그게 귀찮고 나 믿으면 그냥 'FocusLock.apk`올려둔 걸 폰에 설치하세요.
 설치 시 **"출처를 알 수 없는 앱 허용"** 필요합니다.
 
 ---
